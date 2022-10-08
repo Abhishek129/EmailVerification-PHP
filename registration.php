@@ -41,8 +41,8 @@ function smtp_mailer($to,$subject,$msg){
 
     $mail->Host       = 'smtp.gmail.com';                     
     $mail->SMTPAuth   = true;                                   
-    $mail->Username   = 'abhutank003@gmail.com';                     
-    $mail->Password   = 'vcecvevmbtihjdxh';                              
+    $mail->Username   = 'email';                     
+    $mail->Password   = 'password';                              
     $mail->SMTPSecure = "tls";           
     $mail->Port       = 587;                                   
 	$mail->CharSet = 'UTF-8';
